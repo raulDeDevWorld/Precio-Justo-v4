@@ -38,8 +38,6 @@ export default function Home() {
 
             </div>
 
-
-
             <div className={style.card}>
                 <p>
                     <span>Cartera</span><span>Bs 100</span>
@@ -53,19 +51,21 @@ export default function Home() {
                 <span>Nombre de la empresa</span>
             </div>
 
-
-            <h3>Cartera</h3>
-            <p>Lorem ipsum dolor sit amet consectetur. Adipiscing in nunc fermentum lacus est lacus integer. </p>
+            <br />
+            <h3 className={style.subtitle}>Cartera</h3>
+            <br />
+            <p className={style.paragraph}>Lorem ipsum dolor sit amet consectetur. Adipiscing in nunc fermentum lacus est lacus integer. </p>
+            <br />
             <Select arr={['Model One', 'Model Two']}></Select>
-
+            <br />
             <div className={style.cantidadBox}>
-                <h3>Cantidad</h3>
+                <h3 className={style.subtitle}>Cantidad</h3>
 
                 <Button styled='miniButtonSecondaryGreen' click={seeMore}>+</Button>
                 <Button styled='miniButtonSecondary' click={seeMore}>-</Button>
 
             </div>
-
+            <br />
             <Button styled='buttonSecondary' click={seeMore}>Comprar</Button>
 
         </main>

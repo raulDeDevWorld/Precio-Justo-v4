@@ -64,8 +64,8 @@
 
 .miniButtonSecondary {
     padding: 2px;
-    min-width: 130px;
-    max-width: 130px;
+    min-width: 110px;
+    max-width: 110px;
     color: #ffffff;
     background-color: var(--color-secondary);
     border: 2px solid #ffffff3c;
@@ -78,8 +78,8 @@
 }
 .miniButtonSecondaryGreen {
     padding: 2px;
-    min-width: 130px;
-    max-width: 130px;
+    min-width: 110px;
+    max-width: 110px;
     width: 100%;
     color: #ffffff;
     background-color: #14EFA5;

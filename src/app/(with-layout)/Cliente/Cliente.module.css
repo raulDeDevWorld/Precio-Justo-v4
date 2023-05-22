@@ -1,15 +1,18 @@
 .main {
-    margin-top: 50px;
+    margin: 40px 0 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px;
+
 }
+
 .tagBox {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 
@@ -20,7 +23,7 @@
 }
 
 .tagBox :nth-child(n) {
-    margin: 5px 25px;
+    margin: 0px 0px;
 }
 
 
@@ -33,11 +36,13 @@
     margin: 10px 0;
 }
 
-.card p:nth-child(1), .card div  {
+.card p:nth-child(1),
+.card div {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
+
 .card p span {
     font-weight: 700;
     font-size: 16px;
@@ -53,7 +58,7 @@
     width: 100%;
 }
 
-.card > :nth-child(4) {
+.card> :nth-child(4) {
     display: block;
     background-color: var(--main-bg-color);
     color: white;
@@ -75,7 +80,13 @@
 
 
 
-
+.subtitle {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font-weight: var(--font-weight-bold);
+}
 
 
 .cantidadBox {
@@ -86,11 +97,14 @@
     align-items: center;
 }
 
-.cantidadBox h3{
-    margin: 0;
-    padding: 0;
+
+
+.cantidadBox :nth-child(n) {
+    width: 40px;
 }
 
-.cantidadBox :nth-child(n){
-    width: 40px;
+.paragraph {
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
