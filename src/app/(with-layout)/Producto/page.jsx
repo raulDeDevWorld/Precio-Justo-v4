@@ -31,7 +31,7 @@ export default function Home() {
 
 
         <main className={style.main}>
-{/* 
+
             <div className={style.tagBox}>
                 <label htmlFor="">Categoria</label>
                 <Tag styled='tagPrimary'>Los mas recientes</Tag>
@@ -66,7 +66,7 @@ export default function Home() {
 
             </div>
             <br />
-            <Button styled='buttonSecondary' click={seeMore}>Comprar</Button> */}
+            <Button styled='buttonSecondary' click={seeMore}>Comprar</Button>
 
         </main>
 
