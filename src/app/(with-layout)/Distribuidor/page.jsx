@@ -42,19 +42,19 @@ export default function Home() {
 
                 <div className={style.checkbox}>
                     <input type="checkbox" id="L" name="L"/>
-                    <label for="L">L</label>
+                    <label htmlFor="L">L</label>
                     <input type="checkbox" id="M" name="M"/>
-                    <label for="M">M</label>
+                    <label htmlFor="M">M</label>
                     <input type="checkbox" id="M" name="M"/>
-                    <label for="M">M</label>
+                    <label htmlFor="M">M</label>
                     <input type="checkbox" id="J" name="J"/>
-                    <label for="J">J</label>
+                    <label htmlFor="J">J</label>
                     <input type="checkbox" id="V" name="V"/>
-                    <label for="V">V</label>
+                    <label htmlFor="V">V</label>
                     <input type="checkbox" id="S" name="S"/>
-                    <label for="S">S</label>
+                    <label htmlFor="S">S</label>
                     <input type="checkbox" id="D" name="D"/>
-                    <label for="D">D</label>
+                    <label htmlFor="D">D</label>
 
                 </div>
                 <label htmlFor="">Horarios de Atención</label>
