@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 
-import { useUser } from '../../../context/Context.js'
+// import { useUser } from '../../../context/Context.js'
 import Image from 'next/image'
 import Link from 'next/link'
 import style from '../Medico.module.css'
@@ -15,7 +15,7 @@ import { useRouter } from 'next/navigation';
 export default function Home() {
     const router = useRouter()
 
-    const { user, userDB, setUserData } = useUser()
+    // const { user, userDB, setUserData } = useUser()
 
     const [state, setState] = useState({})
 
