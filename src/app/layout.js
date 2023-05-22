@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 
                     <link rel="icon" href="/logo-main.svg" />
 
-                    <link rel='manifest' href='/manifest.json' />
+        
 
                     <link rel='apple-touch-icon' href='/logo-main.svg' />
 
@@ -38,6 +38,7 @@ export default function RootLayout({ children }) {
                     <meta name="keywords" content="Logistics Gear" />
 
                     <meta name="author" content="Logistics Gear" />
+    <title>Precio Justo</title>
 
                 </Head>
     
