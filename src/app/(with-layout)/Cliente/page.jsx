@@ -26,7 +26,7 @@ function seeMore  () {
 
         <main className={style.main}>
 
-            <div className={style.tagBox}>
+            {/* <div className={style.tagBox}>
                 <label htmlFor="">Categorias</label>
                 <Tag styled='tagPrimary'>Los mas recientes</Tag>
                 <Tag styled='tagSecondary'>En oferta</Tag>
@@ -47,7 +47,7 @@ function seeMore  () {
 
                 </div>
                 <span>Nombre de la empresa</span>
-            </div>
+            </div> */}
 
         </main>
 
