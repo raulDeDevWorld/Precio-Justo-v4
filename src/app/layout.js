@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     
     <Head>   
 
-                    <link rel="icon" href="/logo.png" />
+                    <link rel="icon" href="/logo-main.svg" />
 
                     <link rel='manifest' href='/manifest.json' />
 
