@@ -7,7 +7,7 @@ export default function Home({ children }) {
     return (
 
         <div className={style.container}>
-            {/* <header className={style.header}>
+            <header className={style.header}>
                 <img src="/logo-white.svg" alt="" />
                 <ul>
                     <li> <img src="/notification.svg" alt="" /> </li>
@@ -16,7 +16,7 @@ export default function Home({ children }) {
             </header>
             <main className={style.main}>
                 {children}
-            </main> */}
+            </main>
        
         </div>
 

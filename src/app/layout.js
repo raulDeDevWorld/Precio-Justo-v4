@@ -1,5 +1,5 @@
 
-// import { UserProvider } from '../context/Context'
+import { UserProvider } from '../context/Context'
 
 
 import './globals.css'
@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <UserProvider> */}
+        <UserProvider>
           {children}
-        {/* </UserProvider> */}
+        </UserProvider>
       </body>
     </html>
   )
