@@ -1,3 +1,6 @@
+'use client'
+
+
 import React, { useState, useMemo, useContext} from 'react'
 
 const UserContext = React.createContext()
