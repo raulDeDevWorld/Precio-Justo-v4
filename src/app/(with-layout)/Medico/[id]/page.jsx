@@ -31,7 +31,7 @@ export default function Home() {
 
 
         <main className={style.main}>
-            {/* <img src="/perfil.png" alt="" />
+            <img src="/perfil.png" alt="" />
             <br />
             <h3 className={style.subtitleBlue}>{userDB['Nombre']}</h3>
             <br />
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <br />
             <Button styled='buttonSecondary'>Solicitar Ficha</Button>
- */}
+ 
 
         </main>
 
