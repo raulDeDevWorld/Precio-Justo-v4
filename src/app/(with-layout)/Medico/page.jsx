@@ -58,7 +58,7 @@ export default function Home() {
 
 
         <main className={style.main}>
-            {/* <form className={style.form} action="">
+             <form className={style.form} action="">
                 <h3>Agregar Perfil</h3>
                 <div className={style.perfil}>
                     <label htmlFor="file" >Subir Imagen</label>
@@ -122,7 +122,7 @@ export default function Home() {
                     <Button styled='buttonSecondary' click={save}>Guardar</Button>
                 </div>
 
-            </form> */}
+            </form>
 
         </main>
 
