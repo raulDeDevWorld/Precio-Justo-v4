@@ -1,6 +1,6 @@
 
 import { UserProvider } from '../context/Context'
-
+import Head from 'next/head';
 
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -14,9 +14,35 @@ export const metadata = {
 
 
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }) { 
   return (
     <html lang="en">
+    
+    
+    <Head>   
+
+                    <link rel="icon" href="/logo.png" />
+
+                    <link rel='manifest' href='/manifest.json' />
+
+                    <link rel='apple-touch-icon' href='/logo-main.svg' />
+
+                    <meta name="theme-color" content="#1D0F4A" />
+
+                    <meta name="msapplication-navbutton-color" content="#1D0F4A" />
+
+                    <meta name="apple-mobile-web-app-status-bar-style" content="#1D0F4A" />
+
+                    <meta name="description" content="Sistema de Administracion de Clientes y Formularios" />
+
+                    <meta name="keywords" content="Logistics Gear" />
+
+                    <meta name="author" content="Logistics Gear" />
+
+                </Head>
+    
+    
+    
       <body className={inter.className}>
         <UserProvider>
           {children}
