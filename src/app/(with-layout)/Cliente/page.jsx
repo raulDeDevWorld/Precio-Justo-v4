@@ -1,11 +1,6 @@
 'use client'
 
-
-import Image from 'next/image'
-import Link from 'next/link'
 import style from './Cliente.module.css'
-import Input from '../../../components/Input'
-import Select from '../../../components/Select'
 import Button from '../../../components/Button'
 import Tag from '../../../components/Tag'
 import { useRouter } from 'next/navigation';
