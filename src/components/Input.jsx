@@ -17,13 +17,8 @@ export default function Button({click, type, name, onChange,reference, placehold
 
     return (
         <input
-            type={type}
-            name={name}
-            className={style.input}
-            onChange={onChange}
-            style={{...styled}}
-            ref={reference}
-            placeholder={placeholder}
+       
+
           />
     )
 }

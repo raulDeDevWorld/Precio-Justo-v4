@@ -1,7 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
+'use client'
+
 import style from './Medico.module.css'
-import Button from '../../components/Button'
 
 export default function Home({ children }) {
 
@@ -18,8 +17,7 @@ export default function Home({ children }) {
             <main className={style.main}>
                 {children}
             </main>
-            {/* {success == false && <Error>ERROR: verifique e intente nuevamente</Error>}
-        {success == 'complete' && <Error>Llene todo el formulario</Error>} */}
+       
         </div>
 
     )
